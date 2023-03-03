@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imagePic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/bank_icon">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:textSize="30dp"
+            android:text="Tên môn học"
+            android:id="@+id/txtMonHocName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:text="Thông tin mô tả"
+            android:id="@+id/txtMonHocDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnNhap"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nhập">-->
+
+<!--        </Button>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnCapNhat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Cập nhật">-->
+
+<!--        </Button>-->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</ScrollView>

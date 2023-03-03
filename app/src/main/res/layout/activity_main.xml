@@ -1,0 +1,44 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/baitap_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/baitap_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid View">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/baitap_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycle View">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
